@@ -1,4 +1,4 @@
-/* Reset some default browser styles */
+/* Reset default browser styles */
 * {
     margin: 0;
     padding: 0;
@@ -8,13 +8,13 @@
 /* Global styles */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ECF0F1; /* Light gray background */
+    color: #2C3E50; /* Dark slate text */
     line-height: 1.6;
 }
 
 h1, h2, h3 {
-    color: #333;
+    color: #2C3E50; /* Dark slate for headings */
 }
 
 ul {
@@ -23,9 +23,9 @@ ul {
 
 /* Navigation styles */
 nav {
-    background-color: #333;
+    background-color: #2C3E50; /* Dark blue/nav background */
     color: white;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 nav ul {
@@ -45,14 +45,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #555;
+    background-color: #3498DB; /* Accent color on hover */
 }
 
 /* Header styles */
 header {
-    background-color: #333;
+    background-color: #2C3E50; /* Dark blue background */
     color: white;
-    padding: 50px 0;
+    padding: 70px 0;
     text-align: center;
 }
 
@@ -78,6 +78,7 @@ header p {
 .section h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
+    color: #1ABC9C; /* Teal color for section headers */
 }
 
 .section ul {
@@ -100,19 +101,19 @@ header p {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #3498DB; /* Accent color for buttons */
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .button:hover {
-    background-color: #555;
+    background-color: #2980B9; /* Darker blue on hover */
 }
 
 /* Footer styles */
 footer {
-    background-color: #333;
+    background-color: #34495E; /* Darker blue-gray for footer */
     color: white;
     padding: 20px 0;
     text-align: center;
